@@ -149,6 +149,14 @@ img {
 }
 
 /* Show modal */
+.show-modal {
+  visibility: visible;
+  opacity: 1;
+}
+
+.show-modal .modal__content {
+  transform: translateY(0);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
