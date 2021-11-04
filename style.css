@@ -93,8 +93,8 @@ img {
   overflow: hidden;
   transition: all 0.3s;
   z-index: var(--z-modal);
-  // visibility: hidden;
-  // opacity: 0;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .modal__content {
@@ -104,6 +104,9 @@ img {
   padding: 3rem 2rem 2rem;
   border-radius: 1rem 1rem 0 0;
   transition: all 0.3s;
+
+  // Effect 1
+  transform: translateY(10%);
 }
 
 .modal__img {
